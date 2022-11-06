@@ -120,7 +120,6 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   }
 }
 
-/// This is the main application widget.
 class MyApp extends StatelessWidget {
   MyApp({Key? key}) : super(key: key);
   final Future<FirebaseApp> _initialization = Firebase.initializeApp();
