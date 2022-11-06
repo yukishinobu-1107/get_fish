@@ -1,0 +1,1 @@
+import 'package:cloud_firestore/cloud_firestore.dart';class UserModel {  String userId;  String name;  String typed;  String imagePath;  Timestamp? createdTime;  Timestamp? updatedTime;  UserModel(      {this.userId = '',      this.name = '',      this.typed = '',      this.imagePath = '',      this.createdTime,      this.updatedTime});}

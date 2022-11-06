@@ -1,0 +1,11 @@
+<!--AndroidManifest.xml-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.flutter_get_fish.get_fish">
+
+    <!-- Flutter needs it to communicate with the running application to allow setting breakpoints, to provide hot reload, etc.-->
+    <!--    APIレベル調整 API読み込み OgawaK 2021/12/05-->
+    <uses-sdk tools:overrideLibrary="com.google.firebase.firestore" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

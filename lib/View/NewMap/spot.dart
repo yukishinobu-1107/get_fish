@@ -1,0 +1,1 @@
+class Spot {  String uid;  double latitude;  double longitude;  String name;  Spot(this.uid, this.latitude, this.longitude, this.name);}
